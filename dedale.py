@@ -113,6 +113,8 @@ def setACaseXY(X, Y, color):
 
 
 master = Tk()
+master.title("Ez le labyrinthe de ses morts")
+master.iconbitmap("siphano.ico")
 canvas_width = 1000
 canvas_height = 1000
 w = Canvas(master,width=1000,height=1000)
