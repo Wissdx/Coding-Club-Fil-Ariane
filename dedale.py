@@ -74,9 +74,11 @@ def down():
 dir = []
 
 def algo(value):
-    down()
-
-
+    while map[posX][posX] != 1:
+        if map[posX+1][posX] == 1:
+            right()
+        
+    
 
 
 def setACaseXY(X, Y, color):
@@ -88,9 +90,7 @@ def setACaseXY(X, Y, color):
 master = Tk()
 canvas_width = 1000
 canvas_height = 1000
-w = Canvas(master,
-           width=1000,
-           height=1000)
+w = Canvas(master,width=1000,height=1000)
 
 
 
